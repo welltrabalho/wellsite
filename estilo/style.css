@@ -31,7 +31,7 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
-    min-height: 100px;
+    min-height: 150px;
     text-align: center;
     padding: 40px;
 }
@@ -49,7 +49,7 @@ header p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: #ffff;
-    max-width: 500px;
+    max-width: 700px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;

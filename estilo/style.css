@@ -109,8 +109,61 @@ main img.pequeno {
     margin: auto;
 }
 
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background: var(--cor1);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288);
+}
+
+
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+aside ul {
+    list-style-type: '\1F44D';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
 footer{
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px;
 }
 
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
